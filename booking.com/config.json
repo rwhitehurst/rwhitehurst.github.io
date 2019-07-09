@@ -1,55 +1,51 @@
 //Client ID
-var clientId="7qtpb74ihrx6q2tf1jog5vcmcby6swxx";
+var clientId="5yh5v3b0mbdmha3chem7wqqln7ns4t0a";
 
 //Main page
-var redirectAfterLoginPage="/Template/main.html";
+var redirectAfterLoginPage="/booking.com/main.html";
 
 //Navigation
 var navigation=[
 
   {
-      "page":"readme.html",
-      "title":"README"
-  },
-  {
-      "page":"https://developer.box.com",
-      "title":"DEVELOPER",
-      "boxId":"0"
+      "page":"https://news.booking.com/",
+      "title":"HOME"
+
   },
   {
       "page":"folder1.html",
-      "title":"FOLD1",
-      "boxId":"0"
+      "title":"MYVAULT",
+      "boxId":"80279045916"
   },
   {
       "page":"folder2.html",
-      "title":"FOLD2",
-      "boxId":"0"
+      "title":"ONBOARDING",
+      "boxId":"80293742636"
   },
   {
-      "page":"folder3.html",
-      "title":"FOLD3",
-      "boxId":"0"
+      "page":"folder10.html",
+      "title":"CATALOGUES",
+      "boxId":"80294010428"
   },
   {
       "page":"preview1.html",
-      "title":"PREV1",
-      "boxId":"428392560865"
+      "title":"STANDARDS",
+      "boxId":"481109491704"
   },
   {
       "page":"preview2.html",
-      "title":"PREV2",
-      "boxId":"0"
+      "title":"PAYSLIP",
+      "boxId":"481111614171"
   },
   {
       "page":"preview3.html",
-      "title":"PREV3",
-      "boxId":"0"
+      "title":"IMAGE SKILLS",
+      "boxId":"481127465469"
   },
   {
       "page":"preview4.html",
-      "title":"PREV4",
-      "boxId":"0"
+      "title":"VIDEO REVIEW",
+      "boxId":"481082112331"
   },
   {
       "page":"openwith.html",
@@ -59,8 +55,23 @@ var navigation=[
   {
       "page":"uploader.html",
       "title":"UPLOADER",
-      "boxId":"0"
-  }
+      "boxId":"80310405095"
+  },
+  {
+      "page":"https://box-162828.workflowcloud.com/forms/72dbda52-9ece-4809-8b8d-afe6ea504d80",
+      "title":"WORKFLOW",
 
+  },
+{
+    "page":"https://developer.box.com",
+    "title":"DEVELOPER",
+    "boxId":"0"
+  },
+  {
+
+      "page":"login.html",
+      "target":"_top",
+      "title":"LOGOUT"
+  }
 
 ];
